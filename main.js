@@ -9,6 +9,7 @@ ctx.lineJoin = 'round'
 ctx.lineCap = 'round'
 ctx.lineWidth = 100
 
+ctx.globalCompositeOperation = 'multiply'
 let isDrawing = false
 let hue = 0
 let lastX = 0
